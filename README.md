@@ -1,12 +1,25 @@
 ---
 # Just the Run Times and the Reasoning
 ---
-Got it. Here are the README files with only the runtimes and reasoning for each data structure and algorithm.
-
+1. [Arrays](#arrays)
+2. [Stacks](#stacks)
+3. [Queues](#queues)
+4. [Hashing](#hashing)
+5. [Sliding Window](#sliding-window)
+6. [Two Pointers](#two-pointers)
+7. [Prefix Sum](#prefix-sum)
+8. [Linked Lists](#linked-lists)
+9. [Sorting](#sorting)
+10. [Binary Search](#binary-search)
+11. [Trees](#trees)
+12. [Heaps](#heaps)
+13. [Backtracking](#backtracking)
+14. [Graphs](#graphs)
+15. [Bit Manipulation](#bit-manipulation)
+16. [Dynamic Programming (DP)](#dynamic-programming-dp)
+---
 ### 1. Arrays
-
-**`Arrays/README.md`**
-
+---
 ```markdown
 # Arrays
 
@@ -27,11 +40,9 @@ Arrays are a linear data structure that stores elements in contiguous memory loc
 - **O(n)**
   - **Reason**: Space required is proportional to the number of elements stored in the array.
 ```
-
+---
 ### 2. Stacks
-
-**`Stacks/README.md`**
-
+---
 ```markdown
 # Stacks
 
@@ -52,11 +63,9 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 - **O(n)**
   - **Reason**: Space required is proportional to the number of elements stored in the stack.
 ```
-
+---
 ### 3. Queues
-
-**`Queues/README.md`**
-
+---
 ```markdown
 # Queues
 
@@ -77,11 +86,9 @@ A queue is a linear data structure that follows the First In, First Out (FIFO) p
 - **O(n)**
   - **Reason**: Space required is proportional to the number of elements stored in the queue.
 ```
-
+---
 ### 4. Hashing
-
-**`Hashing/README.md`**
-
+---
 ```markdown
 # Hashing
 
@@ -100,11 +107,9 @@ Hashing is a technique used to uniquely identify a specific object from a group 
 - **O(n)**
   - **Reason**: Space required is proportional to the number of key-value pairs stored in the hash table.
 ```
-
+---
 ### 5. Sliding Window
-
-**`Sliding-Window/README.md`**
-
+---
 ```markdown
 # Sliding Window
 
@@ -119,11 +124,9 @@ The sliding window technique is used for problems that involve arrays or lists. 
 - **O(1)**
   - **Reason**: The space required does not scale with the input size; only a fixed number of extra variables are used.
 ```
-
+---
 ### 6. Two Pointers
-
-**`Two-Pointers/README.md`**
-
+---
 ```markdown
 # Two Pointers
 
@@ -138,11 +141,9 @@ The two-pointers technique is commonly used to solve problems related to arrays 
 - **O(1)**
   - **Reason**: The space required is constant and does not depend on the input size.
 ```
-
+---
 ### 7. Prefix Sum
-
-**`Prefix-Sum/README.md`**
-
+---
 ```markdown
 # Prefix Sum
 
@@ -159,11 +160,9 @@ Prefix sum is a technique used to preprocess an array of numbers so that queries
 - **O(n)**
   - **Reason**: An additional array of the same size as the input array is required to store the prefix sums.
 ```
-
+---
 ### 8. Linked Lists
-
-**`Linked-Lists/README.md`**
-
+---
 ```markdown
 # Linked Lists
 
@@ -184,11 +183,9 @@ A linked list is a linear data structure where each element (node) contains a va
 - **O(n)**
   - **Reason**: Space required is proportional to the number of nodes in the list.
 ```
-
+---
 ### 9. Sorting
-
-**`Sorting/README.md`**
-
+---
 ```markdown
 # Sorting
 
@@ -215,13 +212,9 @@ Sorting algorithms are used to rearrange elements in a list or array in a certai
 - **Heap Sort: O(1)**
   - **Reason**: Sorting is done in place without requiring additional storage.
 ```
-
+---
 ### 10. Binary Search
-
-**`Binary
-
--Search/README.md`**
-
+---
 ```markdown
 # Binary Search
 
@@ -236,11 +229,9 @@ Binary search is an efficient algorithm for finding an element in a sorted array
 - **O(1)**
   - **Reason**: Binary search is typically implemented iteratively, requiring only a constant amount of extra space.
 ```
-
+---
 ### 11. Trees
-
-**`Trees/README.md`**
-
+---
 ```markdown
 # Trees
 
@@ -259,11 +250,9 @@ A tree is a hierarchical data structure consisting of nodes, with a single node 
 - **O(n)**
   - **Reason**: Space required is proportional to the number of nodes in the tree.
 ```
-
+---
 ### 12. Heaps
-
-**`Heaps/README.md`**
-
+---
 ```markdown
 # Heaps
 
@@ -282,11 +271,9 @@ A heap is a specialized tree-based data structure that satisfies the heap proper
 - **O(n)**
   - **Reason**: Space required is proportional to the number of elements in the heap.
 ```
-
+---
 ### 13. Backtracking
-
-**`Backtracking/README.md`**
-
+---
 ```markdown
 # Backtracking
 
@@ -301,11 +288,9 @@ Backtracking is a general algorithmic technique for solving problems incremental
 - **O(n)**
   - **Reason**: Space required is proportional to the depth of the recursion tree.
 ```
-
+---
 ### 14. Graphs
-
-**`Graphs/README.md`**
-
+---
 ```markdown
 # Graphs
 
@@ -322,11 +307,9 @@ A graph is a collection of nodes (vertices) and edges connecting pairs of nodes.
 - **O(V + E)**
   - **Reason**: Space required to store the graph and for the auxiliary data structures used during traversal.
 ```
-
+---
 ### 15. Bit Manipulation
-
-**`Bit-Manipulation/README.md`**
-
+---
 ```markdown
 # Bit Manipulation
 
@@ -341,11 +324,9 @@ Bit manipulation involves operations on individual bits of binary numbers. These
 - **O(1)**
   - **Reason**: Bitwise operations do not require additional space.
 ```
-
+---
 ### 16. Dynamic Programming (DP)
-
-**`Dynamic-Programming/README.md`**
-
+---
 ```markdown
 # Dynamic Programming (DP)
 
