@@ -148,6 +148,12 @@
   - **Reason**: The array is partitioned and recursively sorted. In the worst case, the partitioning is unbalanced, resulting in quadratic time complexity.
 - **Heap Sort: O(n log n)**
   - **Reason**: Building a heap takes O(n) time, and each of the n elements is extracted in O(log n) time.
+- **Counting Sort: O(n+k)**
+  - **Reason**: Building the hash map/array takes O(n) time, looping through each element in the hash map/ array in ascending order takes O(k) where k is the range of values.
+- **Radix Sort: O(d(n+b))**
+  - **Reason**: Radix sort is essentially running counting sort on each digit of every number. B is whatever base you want to represent your numbers in (k in counting sort) while d is the number of digits or repetitions of counting sort completed.
+- **Bucket Sort: O(n^2)**
+  - **Reason**: Depending on what sorting algorithm is used to sort each bucket, time complexity can be O(n^2) or O(n log n), but in the best case where all buckets have a single number of elements, the time complexity is O(n+k).
 
 ### Space Complexity
 - **Bubble Sort: O(1)**
@@ -158,6 +164,14 @@
   - **Reason**: Space is required for the recursion stack in the best case.
 - **Heap Sort: O(1)**
   - **Reason**: Sorting is done in place without requiring additional storage.
+- **Counting Sort: O(k+n)**
+  - **Reason**: The counting sort space complexity is O(k+n) where you have a key or index for each value in the range of values.
+- **Radix Sort: O(b)**
+  - **Reason**: Radix sort uses a maximum of b "buckets" to sort the array.
+- **Radix Sort: O(n+k)**
+  - **Reason**: Bucket sort uses a maximum of k buckets with n elements spread across all buckets.
+
+
 
 ---
 ## Binary Search
